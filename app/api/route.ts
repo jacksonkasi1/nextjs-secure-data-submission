@@ -44,6 +44,12 @@ app.get("/", (c) => {
   });
 });
 
+app.get("/decrypt-data", (c) => {
+  return c.json({
+    message: "server is running...🚀",
+  });
+});
+
 app.post('/decrypt-data', async (c: Context) => {
   try {
     const { data } = await c.req.json();
