@@ -1,7 +1,5 @@
 {
-  "name": "nextjs-secure-data-submission",
-  "version": "0.1.0",
-  "private": true,
+  "name": "secure-data-submit",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,16 +7,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "express": "^4.21.0",
     "hono": "^4.6.1",
-    "next": "14.2.11",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.11",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "typescript": "^5"
   }
 }
